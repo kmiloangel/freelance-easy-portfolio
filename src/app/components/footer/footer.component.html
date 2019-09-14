@@ -1,0 +1,17 @@
+<footer>
+  <div class="container" *ngIf="user">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h4>Location:</h4>
+        <p><i class="fa fa-map-marker-alt"></i> {{ user.location }}</p>
+      </div>
+      <div class="col-lg-6">
+        <h4>Around:</h4>
+        <ng-container *ngFor="let social of user.social_links; let index = index">
+          <br *ngIf="index > 0" />
+          <a href="{{ social.url }}" target="_blank"><i class="{{ social.ico }}"></i> {{ social.name }}</a>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</footer>

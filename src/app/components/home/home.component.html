@@ -1,0 +1,14 @@
+<app-header [user]="user"></app-header>
+
+<section id="portfolio">
+  <div class="container">
+    <h2 class="text-center mb-3">Highlights</h2>
+    <ng-container *ngIf="projects">
+      <app-portfolio *ngFor="let item of projects; let index = index" [project]="item">
+        <hr *ngIf="index > 0" />
+      </app-portfolio>
+    </ng-container>
+  </div>
+</section>
+
+<app-footer [user]="user"></app-footer>

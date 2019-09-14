@@ -1,0 +1,8 @@
+<header class="jumbotron mb-0">
+  <div class="container" *ngIf="user">
+    <img [src]="user.avatar" alt="Avatar">
+    <h1 class="display-4">{{ user.name }}</h1>
+    <p class="lead">{{ user.position }}</p>
+    <h6>{{ "{portfolio}" }}</h6>
+  </div>
+</header>

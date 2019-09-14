@@ -1,0 +1,174 @@
+{
+  "data": {
+    "user": {
+      "name": "Juan Angel",
+      "avatar": "https://www.trueke.co/portfolio/avatar.svg",
+      "position": "Fullstack Web Developer",
+      "location": "Medellín / Colombia",
+      "social_links": [
+        {
+          "ico": "fas fa-file-pdf",
+          "url": "https://www.trueke.co/portfolio/cv.pdf", 
+          "name": "CV"
+        },
+        {
+          "ico": "fab fa-linkedin",
+          "url": "https://www.linkedin.com/in/juan-angel-b58706136/", 
+          "name": "LinkedIn"
+        },
+        {
+          "ico": "fab fa-stack-overflow",
+          "url": "https://stackoverflow.com/users/4087081/juan-angel", 
+          "name": "StackOverflow"
+        },
+        {
+          "ico": "fab fa-github",
+          "url": "https://github.com/kmiloangel", 
+          "name": "GitHub"
+        }
+      ]
+    },
+    "projects": [
+      {
+        "name": "Appropiate / Real estate website",
+        "website": "https://www.appropiate.com",
+        "stack": [
+          "PHP",
+          "MySql",
+          "Angular",
+          "Redis",
+          "Rest services"
+        ],
+        "description": "Responsible of all the development, architecture and deployment. It has an API with 50.000+ requests per day.<br>Website that covers up the 90% of the real estate properties in Colombia for rent and sale. La Lonja de Medellín is the most important real estate company in Antioquia.",
+        "img_desktop": [
+          "https://www.trueke.co/portfolio/appropiate-togheter.fw-min.png"
+        ],
+        "img_mobile": [],
+        "date_from": "November 2017",
+        "date_to": "November 2018"
+      },
+      {
+        "name": "Farmashops / Mobile App",
+        "website": "",
+        "stack": [
+          "PHP",
+          "Laravel",
+          "PostgreSQL",
+          "Ionic framework",
+          "Angular",
+          "Azure",
+          "Firebase"
+        ],
+        "description": "Team leader, responsible for architecture, development and deployment.<br />Multiplatform app to buy medicines at the best price, fast and easy.",
+        "img_desktop": [
+          "https://www.trueke.co/portfolio/farmashops-min.png"
+        ],
+        "img_mobile": [
+          "https://www.trueke.co/portfolio/farmashops1-mobile-min.png",
+          "https://www.trueke.co/portfolio/farmashops2-mobile-min.png",
+          "https://www.trueke.co/portfolio/farmashops3-mobile-min.png",
+          "https://www.trueke.co/portfolio/farmashops4-mobile-min.png"
+        ],
+        "date_from": "January 2019",
+        "date_to": "Now"
+      },
+      {
+        "name": "Flamingo | Hospital San Vicente | Gana / Cautive Portals",
+        "website": "",
+        "stack": [
+          "PHP",
+          "Laravel",
+          "PostgreSQL",
+          "CISCO Meraki API"
+        ],
+        "description": "Manages the wifi connections of up to 1500 visitors per day.",
+        "img_desktop": [],
+        "img_mobile": [
+          "https://www.trueke.co/portfolio/gana-mobile-min.png",
+          "https://www.trueke.co/portfolio/cautive-portal-flamingo-mobile-min.png",
+          "https://www.trueke.co/portfolio/hospital-mobile-min.png"
+        ],
+        "date_from": "June 2019",
+        "date_to": "July 2019"
+      },
+      {
+        "name": "Páginas Amarillas Publitel / Website & Mobile App",
+        "website": "http://www.paginasamarillaspublitel.com",
+        "stack": [
+          "PHP",
+          "Laravel",
+          "Ionic Framework",
+          "Angular"
+        ],
+        "description": "App to search services and companies in the east of Antioquia and ask for services.",
+        "img_desktop": [
+          "https://www.trueke.co/portfolio/publitel-desktop-cropped2-min.png"
+        ],
+        "img_mobile": [
+          "https://www.trueke.co/portfolio/publitel1-mobile-min.png",
+          "https://www.trueke.co/portfolio/publitel2-mobile-min.png",
+          "https://www.trueke.co/portfolio/publitel3-mobile-min.png"
+        ],
+        "date_from": "February 2017",
+        "date_to": "July 2017"
+      },
+      {
+        "name": "El Dandy Inmobiliaria / Real estate website",
+        "website": "https://www.eldandyinmobiliaria.com",
+        "stack": [
+          "PHP",
+          "Laravel",
+          "MySql",
+          "Angular",
+          "Rest Services",
+          "SOAP Webservices"
+        ],
+        "description": "",
+        "img_desktop": [
+          "https://www.trueke.co/portfolio/dandy-together.fw-min.png"
+        ],
+        "img_mobile": [],
+        "date_from": "",
+        "date_to": ""
+      },
+      {
+        "name": "Win a dream / Game",
+        "website": "",
+        "stack": [
+          "NodeJS",
+          "Web Sockets",
+          "MongoDB",
+          "Angular"
+        ],
+        "description": "Multiplayer game, when a player answers wrong, is out of the game, until its only one player alive.",
+        "img_desktop": [
+          "https://www.trueke.co/portfolio/winadream-min.png",
+          "https://www.trueke.co/portfolio/winadream-1-min.png",
+          "https://www.trueke.co/portfolio/winadream-2-min.png",
+          "https://www.trueke.co/portfolio/winadream-2-1-min.png"
+        ],
+        "img_mobile": [],
+        "date_from": "",
+        "date_to": ""
+      },
+      {
+        "name": "Red Inmobiliaria MLS / Real estate website",
+        "website": "https://www.redinmobiliariamls.com",
+        "stack": [
+          "PHP",
+          "Laravel",
+          "MySQL",
+          "Rets MLS Services",
+          "SOAP Webservices"
+        ],
+        "description": "",
+        "img_desktop": [
+          "https://www.trueke.co/portfolio/mls-together.fw-min.png"
+        ],
+        "img_mobile": [],
+        "date_from": "",
+        "date_to": ""
+      }
+    ]
+  }
+}

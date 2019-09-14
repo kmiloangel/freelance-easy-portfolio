@@ -1,0 +1,41 @@
+<ng-content></ng-content>
+
+<div class="project">
+  <h4>{{ project.name }}</h4>
+
+  <div class="gallery" *ngIf="project.img_desktop.length > 0">
+    <div class="item" *ngFor="let img of project.img_desktop" [ngClass]="{'full': project.img_desktop.length === 1}">
+      <img [src]="img">
+    </div>
+  </div>
+
+  <div class="gallery mobile" *ngIf="project.img_mobile.length > 0">
+    <div class="item" *ngFor="let img of project.img_mobile" [ngClass]="{'full': project.img_mobile.length === 1}">
+      <img [src]="img">
+    </div>
+  </div>
+
+  <div class="description">
+    <div class="row">
+      <div class="col-lg-8" *ngIf="project.description">
+        <p innerHtml="{{ project.description }}"></p>
+      </div>
+      <div [ngClass]="{'col-lg-4': project.description, 'col-lg-12': !project.description}">
+        <div class="info">
+          <ul>
+            <li><i class="fas fa-code"></i><span>{{ project.stack.join(', ') }}</span></li>
+            <li *ngIf="project.date_from && project.date_to">
+              <i class="fas fa-calendar-alt"></i><span>{{ project.date_from }} to {{ project.date_to }}</span>
+            </li>
+            <li *ngIf="project.website">
+              <i class="fas fa-link"></i>
+              <a href="{{ project.website}}" target="_blank">
+                <span>{{ project.website }}</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
